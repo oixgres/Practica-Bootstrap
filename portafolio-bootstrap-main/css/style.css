@@ -1,0 +1,90 @@
+:root{
+    --blue-primary: #413c36;
+    --blue-secondary: #3e9cdb;
+    --blue-strong: #085283;
+    --white: #fff;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--blue-secondary);
+}
+h1,h2,h3,h4,h5,p{
+    color: var(--white);
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    color: var(--white);
+    height: 10vh;
+}
+
+.navbar-bg{
+    background-color: var(--blue-strong);
+}
+
+.menu__link{
+    color: var(--white);
+}
+
+.menu__link:hover{
+    color: var(--blue-primary);
+}
+
+
+.main{
+    background: var(--blue-secondary);
+    height: 90vh;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.project-img{
+    /* height: 2-.5rem; */
+    width: 20.5rem;
+}
+
+.tecnology{
+    background-color: var(--blue-strong);
+}
+
+.tecnology-img{
+    width: 10.8rem;
+    height: 10.8rem;
+}
+
+.form-container{
+    max-width: 54rem;
+    width: 95%;
+    background-color: var(--blue-primary);
+    border-radius: 1rem;
+}
+
+input[type="text"]{
+    font-size: 1.5rem !important;
+}
+
+.footer{
+    background-color: var(--blue-secondary);
+    color: var(--white);
+}
